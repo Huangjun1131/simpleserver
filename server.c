@@ -125,7 +125,7 @@ int main()
 				int idx;
 				for (idx = 0; idx < global_count; idx++)
 				{
-					printf("%d ", buf[ll->sockfd][idx]); 
+					printf("0x%02X ", buf[ll->sockfd][idx]); 
 				}
 				printf("\n");
 				revents[i].events = EPOLLIN;
